@@ -48,7 +48,7 @@ messages:
 
 **Pegar a api**
 ```java
-NanoAutoClickerAPI api = new NanoAutoClickerAPI();
+NanoAutoClickerAPI api = new NanoAutoClickerAPI().get();
 System.out.println("Numero de players com autoclick: " + api.getUsers().size());
 ```
 

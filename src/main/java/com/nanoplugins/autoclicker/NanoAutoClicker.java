@@ -18,7 +18,6 @@ public class NanoAutoClicker extends JavaPlugin {
         timer.schedule(new AutoClickTask(this, api, getConfig()), 10 * 1000, 1000 * getConfig().getInt("settings.time"));
         new AutoClickCommand(this, api);
         new PlayerQuit(this, api);
-
     }
 
     @Override

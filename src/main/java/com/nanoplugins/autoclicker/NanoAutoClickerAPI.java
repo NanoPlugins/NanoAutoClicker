@@ -7,6 +7,14 @@ import org.bukkit.entity.Player;
 
 public class NanoAutoClickerAPI {
 
+	private static NanoAutoClickerAPI instance;
+
+	public static NanoAutoClickerAPI get() {
+		if (instance == null)
+			instance = new NanoAutoClickerAPI();
+		return instance;
+	}
+
 	private final List<Player> users = new ArrayList<>();
 
 	public void add(Player player) {
