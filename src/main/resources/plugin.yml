@@ -1,0 +1,7 @@
+name: NanoAutoClicker
+main: com.nanoplugins.autoclicker.NanoAutoClicker
+version: 1.0.0
+authors: [NanoPlugins, Morais]
+commands:
+  autoclick:
+    
