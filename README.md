@@ -60,6 +60,6 @@ public void onCall(AutoClickHitEvent event) {
   System.out.println("Player: " + event.getPlayer());  
   System.out.println("Entidade: " + event.getLivingEntity());
   System.out.println("Vida: " + event.getHealth());
-  System.out.println("Vida depois de levar hit: " + getAfterDamagedHealth()); 
+  System.out.println("Vida depois de levar hit: " + event.getAfterDamagedHealth()); 
 }
 ```
