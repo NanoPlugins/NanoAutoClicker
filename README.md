@@ -4,7 +4,7 @@
 
 ## Comandos
 
-• `/autoclick` - Sem permissão <br>
+• `/autoclick` - autoclick.use <br>
 • `/autoclick add <player>` - autoclick.admin <br>
 • `/autoclick remove <player>` - autoclick.admin
 
@@ -13,7 +13,7 @@
 ```yml
 #Comandos
 #
-# • /autoclick - Não precisa de permissão
+# • /autoclick - autoclick.use
 # • /autoclick add <player> - autoclick.admin
 # • /autoclick remove <player> - autoclick.admin
 #
